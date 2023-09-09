@@ -1,6 +1,6 @@
 
 const url = 'https://api.openweathermap.org/data/2.5/weather'
-const apiKey = "f39486461f629df503c501a251c0df73"
+const apiKey = ""
 
 
 
