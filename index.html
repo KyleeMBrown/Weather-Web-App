@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link href="styles.css"  rel="stylesheet">
+    <script src="app.js"></script>
+</head>
+<body>
+    <main>
+            <div class="title">
+                <h2 class="w">W</h2>
+                <h2 class="e">E</h2>
+                <h2 class="a">A</h2>
+                <h2 class="t">T</h2>
+                <h2 class="h">H</h2>
+                <h2 class="e2">E</h2>
+                <h2 class="r">R</h2>
+            </div>
+            <div class="w-container">
+                <div class="weather-box">
+                    <div class="weather-info2"> </div>
+                    <div class="weather-info" id="w-info">
+                        <div class="icon-box" id="icon-box">
+                           <img src='' id="image">
+                        </div>
+                        <div class="info-box">
+                            <div class="stats">
+                                <h3 id="temp"></h3>
+                                <h3 id="feelslike"></h3>
+                                <h3 id="cloudiness"></h3>
+                                <h3 id="winds"></h3>
+                                <h3 id="humidity"></h3>
+                            </div>
+                            <div class="name" id="name"><h2 id="name-txt"></h2></div>
+                            <div class="description" id ='description'><h2 id="desc-txt"></h2></div>
+                        </div>
+                    </div>
+                        
+                    </div>
+                    <div class="inputs">
+                        <h3 class="label">Place:</h3>
+                        <input placeholder=" Ex: City, State, Country" type='text' name ="zip-code" class="zip-code" id="zip-code"></input>
+                    </div>
+                    
+                    <button class="weather-btn" onclick="checkWeather()">
+                        <h3 class="wbtn-txt">Current Weather</h3>
+                    </button>
+                </div>
+            </div>
+            <p id="lp"></p>
+    </main>
+</body>
+</html>
