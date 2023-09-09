@@ -1,8 +1,10 @@
 
 body {
-    background-color:none;
+    background-image: url("file:///Users/kyleebrown/Downloads/pexels-eberhard-grossgasteiger-691668.jpg");
     margin: 0;
-    height: 100vh;
+    height: 110%;
+    background-position: center;
+    background-size: cover;
   
 }
 
